@@ -4,11 +4,11 @@
 
 ## About
 
-Welcome to Podcast Planner, a React application built at Juno College of Technology (formerly HackerYou), designed to help users optimize their walking time with their favorite podcasts. With Podcast Planner, users can easily fill their walking time with as many podcasts as possible, based on their preferred genres and walking time.
+Welcome to Podcast Planner, a React application designed to help users optimize their walking time with their favorite podcasts. With Podcast Planner, users can easily fill their walking time with as many podcasts as possible, based on their preferred genres and walking time.
 
 To get started, users can enter how long they would like to walk and choose one or more genres of the podcast they are interested in. The app will then generate a list of podcasts that will fill the length of the user's walk. Users can then name and save this list into a personal playlist, which is fully editable. Users can remove playlists they are not interested in, re-order the playlist, and select multiple genres to be included in the playlist.
 
-Podcast Planner was built by these members of Cohort #46, from Juno's Immersive Bootcamp. 
+Podcast Planner was built by these team members.
 
 * [Haley Tibbitts](https://github.com/haleytibbitts)
 * [Renata Reinartz](https://github.com/renata1026)
