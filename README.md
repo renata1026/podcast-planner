@@ -1,71 +1,65 @@
-# Astro Planner Travel App: Create your perfect trip!    
+# Podcast Planner: Create your perfect podcast playlist for every walk    
 
-[Astro Planner Live Link]([https://astro-planner.netlify.app/])
+[Podcast Planner Live Link](https://podcast-planner-app.netlify.app/)
 
 ## About
 
-Welcome to the Astro Planner Travel App, a project dedicated to helping travel enthusiasts plan their journeys with celestial beauty. With this app, users can embark on a cosmic travel experience and explore destinations like never before.
+Welcome to Podcast Planner, a React application built at Juno College of Technology (formerly HackerYou), designed to help users optimize their walking time with their favorite podcasts. With Podcast Planner, users can easily fill their walking time with as many podcasts as possible, based on their preferred genres and walking time.
 
-## User Registration and Login
+To get started, users can enter how long they would like to walk and choose one or more genres of the podcast they are interested in. The app will then generate a list of podcasts that will fill the length of the user's walk. Users can then name and save this list into a personal playlist, which is fully editable. Users can remove playlists they are not interested in, re-order the playlist, and select multiple genres to be included in the playlist.
 
-To begin using the Astro Planner Travel App, users first need to create an account by registering. If they already have an account, they can simply log in using their credentials.
-
-## Creating a Travel Itinerary
-
-After registration or login, users can create a travel itinerary. Here's how they do it:
-
-a. Choose Destination: Users can select their desired travel destination.
-b. Departure and Arrival Date: Users specify the dates when they plan to depart and return from their trip.
-c. Flight, Hotel, and Car Rental Forms: Users have the option to enter specific details about their travel, such as their flight details, hotel accommodations, and car rental information. These forms allow users to input the relevant data for each part of their trip.
-d. Skip Option: If users prefer to fill out these details later or if they don't have specific information at the moment, they can choose to skip this step and proceed to the next page.
-
-Itinerary Creation: Once the necessary travel details are provided, the app generates an itinerary for the user's trip. This itinerary includes all the information about flights, hotel stays, and car rentals, helping users to visualize and organize their travel plans.
-
-# Managing Your Trips
-Users have the option to manage their created trips. They can edit the details of an existing trip or delete it if their plans change or if they no longer need the trip information.
-
-
-Podcast Planner was built by these team members.
+Podcast Planner was built by these members of Cohort #46, from Juno's Immersive Bootcamp. 
 
 * [Haley Tibbitts](https://github.com/haleytibbitts)
 * [Renata Reinartz](https://github.com/renata1026)
 * [Richard Tillo](https://github.com/richardJET)
 * [Scott Cheung](https://github.com/luckyNoodles)
 
-Thank you for your interest in Travel Planner! We hope you find it useful and look forward to hearing from you.    
+Thank you for your interest in Podcast Planner! We hope you find it useful and look forward to hearing from you.    
+
 
 
 ## Advanced Web Development tools used in this project
 
-**The Astro Planner Travel App is built with a touch of stardust and also features:**
+**The Podcast Planner app is built with lots of love and also:**
 
-*Stunning Landing Page: Captivating your imagination with the cosmic beauty of travel.
-*Secure Login & Register Forms: Hassle-free login and registration for a seamless experience.
-*Basic Mobile Responsiveness: Accessible from any device, whether it's your computer, tablet, or smartphone.
-*Prisma Schema: A robust database foundation for efficient data management.
-*Backend Development: Creation of endpoints for various functionalities and interactions.
-*Rigorous Testing: Quality assurance to ensure smooth and flawless app performance.
-*Full CRUD Application: Complete control over your travel plans with Create, Read, Update, Delete capabilities.
+* Mobile first design
+* React library
+* Additional libraries used in this project:
+    * Sweet Alerts 2
+    * Axios
+    * Framer Motion
+* SASS was used in CSS styling
+* Firebase is used to store saved podcast playlists
+* Content is generated using the Listen Notes API (https://www.listennotes.com/api/)
 
 
 
 ## Features
 
-* Stunning Landing Page: A visually captivating starting point for your travel journey.
-* Secure Login & Registration: Hassle-free account creation and access.
-* Mobile Responsiveness: Accessible from various devices for on-the-go planning.
-* Itineraries: Users can save their travel itinerary as well as edit and delete trips.
+* Customizable Walk Time: Users can enter their desired walking time.
+* Genre Selection: Users can choose one or more podcast genres that they are interested in.
+* Automatic Playlist Generation: The app generates a list of podcasts that will fill the length of the  user's walk based on their selected genres and walking time.
+* Personalized Playlists: Users can name and save their playlists as personal playlists.
+* Editable Playlists: Personal playlists are editable, so users can remove playlists they are not interested in.
+* Desktop Drag and drop to reorder playlists (Planned: Touch drag and drop)
+* Multi-genre Selection: Users can include multiple podcast genres in their personal playlists.
+* Podcast Player: The app includes a podcast player with the following features:
+    * Play and Pause controls
+    * Fast forward and rewind slider
+    * Volume and Mute controls
 
-By offering these features, the Astro Planner Travel App empowers users to efficiently plan, save, and adjust their travel itineraries according to their preferences and evolving plans.
 
-## Video WalkThrough
+## Screenshots
 
-[Watch Video Walkthrough]([https://your-video-link-here](https://www.loom.com/share/39bfc6f1064b4fe3956945451426e4d6?sid=750cfc77-dae1-4f11-a68d-df26e6bcb860))
+
 
 <table>
   <tr>
     <td><img src="./gitHubReadme/WalkTime.png" alt="Enter Walking Time"></td>
     <td><img src="./gitHubReadme/genres.png" alt="Select Genres"></td>
+    <td><img src="./gitHubReadme/results.png" alt="Playlist Results"></td>
+    <td><img src="./gitHubReadme/savedPlaylists.png" alt="Saved Playlists"></td>
   </tr>
 </table>
 
